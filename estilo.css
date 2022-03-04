@@ -7,4 +7,23 @@ body {
 
 h1 {
     font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li a {
+    flex: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
 }
