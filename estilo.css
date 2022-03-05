@@ -3,21 +3,42 @@
 
 body {
     font-family: 'Tajawal', sans-serif;
+    background-color: #ffebcc;
+    color: #33001a;
 }
 
 h1 {
     font-family: 'Satisfy', cursive;
     text-align: center;
+    color: #e60000;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
+    height: 3em;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
 }
 
 li a {
-    flex: auto;
+    color: #33001a;
+    font-size: larger;
+}
+
+li:hover {
+    background-color: #f33;
+}
+
+li a:hover {
+    color: antiquewhite;
 }
 
 a {
