@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap');
 
 body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Lexend', sans-serif;
     background-color: #ffebcc;
     color: #33001a;
 }
@@ -21,28 +21,50 @@ nav ul {
     flex-wrap: wrap;
 }
 
-li {
+nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1 1 auto;
 }
 
-li a {
+nav ul li a {
     color: #33001a;
     font-size: larger;
 }
 
-li:hover {
+nav ul li:hover {
     background-color: #f33;
 }
 
-li a:hover {
+nav ul li a:hover {
     color: antiquewhite;
 }
 
 a {
     text-decoration: none;
+}
+
+.conteudo {
+    background-color: antiquewhite;
+}
+
+.receita img {
+    max-width: 40%;
+    align-self: center;
+}
+
+.receita {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid #ffc299;
+    font-size: larger;
+}
+
+.titulo-receita {
+    align-self: center;
 }
 
 footer {
