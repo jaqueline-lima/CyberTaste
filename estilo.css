@@ -70,6 +70,7 @@ a {
 .container-receitas {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .link-receita {
@@ -79,13 +80,20 @@ a {
 }
 
 .link-receita img {
-    max-width: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .link-receita a {
     color: #33001a;
+    align-self: center;
+}
+
+.link-receita img:hover {
+    width: 110%;
 }
 
 footer {
     text-align: center;
+    margin-top: 5em;
 }
