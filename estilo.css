@@ -67,6 +67,25 @@ a {
     align-self: center;
 }
 
+.container-receitas {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.link-receita {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 22%;
+}
+
+.link-receita img {
+    max-width: 100%;
+}
+
+.link-receita a {
+    color: #33001a;
+}
+
 footer {
     text-align: center;
 }
