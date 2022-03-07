@@ -19,6 +19,7 @@ nav ul {
     list-style-type: none;
     height: 3em;
     flex-wrap: wrap;
+    margin-bottom: 3em;
 }
 
 nav ul li {
