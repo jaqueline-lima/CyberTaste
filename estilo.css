@@ -94,6 +94,20 @@ a {
     width: 110%;
 }
 
+.container-categorias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.categoria {
+    max-width: 40%;
+}
+
+.categoria img {
+    width: 100%;
+}
+
 footer {
     text-align: center;
     margin-top: 5em;
