@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>CyberTaste - Mandioca Frita em Cubos</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>CyberTaste</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../carnes/carnes.html">Carnes e Massas</a></li>
+                <li><a href="../bebidas/bebidas.html">Bebidas</a></li>
+                <li><a href="petiscos.html">Petiscos</a></li>
+                <li><a href="../saudaveis/saudaveis.html">Receitas Saudáveis</a></li>
+                <li><a href="../sobremesas/sobremesas.html">Doces e Sobremesas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="conteudo">
+        <div class="receita">
+            <h2 class="titulo-receita">Mandioca Frita em Cubos</h2>
+
+            <img src="../imagens/mandioca-frita.jpg" alt="Mandioca Frita em Cubos.">
+
+            <p class="descricao">Receita perfeita para você fazer no seu final de semana. Basta chamar os amigos, abrir uma bebida gelada e jogar um pouco de conversa fora.</p>
+            
+            <h3>Ingredientes:</h3>
+            <ul class="ingredientes">
+                <li>1 quilo de mandioca sem cascas</li>
+                <li>azeite</li>
+                <li>sal e pimenta-do-reino a gosto</li>
+                <li>óleo quanto baste para fritar</li>
+            </ul>
+
+            <h3>Modo de Fazer:</h3>
+            <ol class="modo">
+                <li>Cozinhe os pedaços de mandioca em uma panela funda, com água e sal.</li>
+                <li>Quando estiver bem molinha, escorra e retire a fibra do centro.</li>
+                <li>Amasse a mandioca ainda quente com um garfo, corrija o sal e tempere com pimenta do reino a gosto.</li>
+                <li>Com uma faca, corte quadrados de 6 x 6 cm.</li>
+                <li>Leve novamente ao freezer ou congelador por mais 20 minutos.</li>
+                <li>Em uma panela com bastante óleo quente, frite os quadrados de mandioca em pequenas porções até dourar, retire e deixe secar em papel toalha.</li>
+                <li>Leve à mesa e sirva-se.</li>
+            </ol>
+        </div>
+        <div style="text-align: center;">
+            <p>Envie-nos um comentário sobre o que você achou dessa receita:</p>
+        <input onclick="clicar()" type="button" value="Comentar" style="background: rgb(224, 172, 102); color: white; height: 30px; width: 70px;">
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2022</p>
+        <p>Isaac Gabriel Pereira Machado, Isadora Pereira Bernardes, Jaqueline de Lima Pereira, Ricardo Henrique Bachião de Lima</p>
+    </footer>
+    <script>
+function clicar(){
+    window.prompt('Qual seu nome?')
+    window.prompt('O que você achou dessa receita?')
+}
+    </script>
+</body>
+</html>
