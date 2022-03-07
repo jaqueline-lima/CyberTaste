@@ -102,10 +102,17 @@ a {
 
 .categoria {
     max-width: 40%;
+    margin-bottom: 3em;
 }
 
 .categoria img {
     width: 100%;
+}
+
+.categoria a {
+    color: #33001a;
+    font-size: xx-large;
+    justify-self: center;
 }
 
 footer {
