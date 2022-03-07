@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>CyberTaste - Grasshopper</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>CyberTaste</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../carnes/carnes.html">Carnes e Massas</a></li>
+                <li><a href="bebidas.html">Bebidas</a></li>
+                <li><a href="../petiscos/petiscos.html">Petiscos</a></li>
+                <li><a href="../saudaveis/saudaveis.html">Receitas Saudáveis</a></li>
+                <li><a href="../sobremesas/sobremesas.html">Doces e Sobremesas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="conteudo">
+        <div class="receita">
+            <h2 class="titulo-receita">Grasshopper</h2>
+
+            <img src="../imagens/grasshopper.jpg" alt="Grasshopper Cocktail">
+
+            <p class="descricao">O grasshopper é um coquetel doce com sabor de menta e cacau, para consumo pós-jantar. O nome da bebida deriva-se de sua cor verde, por causa do creme de menta.</p>
+            
+            <h3>Ingredientes:</h3>
+            <ul class="ingredientes">
+                <li>30 ml de licor de menta</li>
+                <li>30 ml de licor de cacau</li>
+                <li>30 ml de creme de leite</li>
+            </ul>
+
+            <h3>Modo de Fazer:</h3>
+            <ol class="modo">
+                <li>Adicione todos os ingredientes em uma coqueteleira com gelo e bata por 15 segundos.</li>
+                <li>Usando um strainer e uma peneira fina, coe da coqueteleira para uma taça martini ou coupe.</li>
+                <li>Decore com raspas de chocolate e sirva-se.</li>
+            </ol>
+        </div>
+        <div style="text-align: center;">
+            <p>Envie-nos um comentário sobre o que você achou dessa receita:</p>
+        <input onclick="clicar()" type="button" value="Comentar" style="background: rgb(224, 172, 102); color: white; height: 30px; width: 70px;">
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2022</p>
+        <p>Isaac Gabriel Pereira Machado, Isadora Pereira Bernardes, Jaqueline de Lima Pereira, Ricardo Henrique Bachião de Lima</p>
+    </footer>
+    <script>
+function clicar(){
+    window.prompt('Qual seu nome?')
+    window.prompt('O que você achou dessa receita?')
+}
+    </script>
+</body>
+</html>
