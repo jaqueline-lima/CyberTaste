@@ -78,6 +78,7 @@ a {
     display: flex;
     flex-flow: column wrap;
     max-width: 22%;
+    margin-bottom: 4em;
 }
 
 .link-receita img {
@@ -102,12 +103,17 @@ a {
 }
 
 .categoria {
-    max-width: 40%;
+    width: 40%;
     margin-bottom: 3em;
+}
+
+.categoria:hover {
+    width: 43%;
 }
 
 .categoria img {
     width: 100%;
+    border-radius: 3%;
 }
 
 .categoria a {
