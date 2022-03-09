@@ -53,6 +53,7 @@ a {
 .receita img {
     max-width: 40%;
     align-self: center;
+    border-radius: 3%;
 }
 
 .receita {
